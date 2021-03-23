@@ -1,0 +1,21 @@
+.textarea {
+    border: 1px solid #888;
+    height: 200px;
+    width: 350px;
+    align-content: center;
+}
+.modal{
+    padding: 50px;
+    background: gainsboro;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 80px;
+    width: 130px;
+}
